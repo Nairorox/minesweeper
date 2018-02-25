@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+h1, p{
+	text-align:center;
+}
+
+main{
+	border:solid;
+	height: 80vh;
+	width: 60vw;
+	margin:auto;
+	display:flex;
+	flex-wrap: wrap;
+	box-sizing:border-box;
+}
+
+.field{
+	box-sizing: border-box;
+	border:solid 1px;
+	font-size:2.5vw;
+	text-align:center;
+}
+
+.mine{
+	background-color:black;
+}
+
+.under-main{
+	width:20%;
+	margin:auto;
+	padding:15px;
+}
